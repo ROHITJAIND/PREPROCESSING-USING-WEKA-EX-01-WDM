@@ -1,15 +1,29 @@
-### EX1 Creation of Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform Preprocessing
-### DATE: 
-### AIM: 
-  To Create Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform preprocessing
-### PROCEDURE: 
+# EX-01 Creation of Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform Preprocessing.
+
+### Aim: 
+<table>
+<tr>
+<td width=77%>
+
+To Create Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform preprocessing.
+</td>
+<td>
+  
+**DATE :10-08-2024**
+</td>
+</tr>
+</table>  
+
+### Procedure: 
 1) Open Start -> Programs -> Accessories -> Notepad
 2) Type the following training data set with the help of Notepad for Employee Table.
-
+<br>
+<table>
+<tr>
+<td valign=top>
+  
+Employee Data:
 ```
---------------
-Employee Data
----------------
 @relation employee
 @attribute name {x,y,z,a,b}
 @attribute id numeric
@@ -23,12 +37,15 @@ y,102,high,3,female,251665
 z,103,medium,1,male,240238
 a,104,low,5,female,200200
 b,105,high,2,male,240240
+```
+  
+</td> 
+<td>
 
---------------
-Weather Data
----------------
+Weather Data:
+```
 @relation weather
-@attribute outlook {sunny,rainy,overcast}
+@attribute outlook {sunny,rainy,overcast}          
 @attribute temparature numeric
 @attribute humidity numeric
 @attribute windy {true,false}
@@ -45,6 +62,10 @@ sunny,72.0,95.0,true,no
 sunny,69.0,70.0,false,yes
 rainy,75.0,80.0,false,yes
 ```
+</td>
+</tr> 
+</table>
+
 3) After that the file is saved with .arff file format.
 4) Minimize the arff file and then open Start -> Programs -> weka-3-4.
 5) Click on weka-3-4, then Weka dialog box is displayed on the screen.
@@ -52,7 +73,7 @@ rainy,75.0,80.0,false,yes
 7) Explorer shows many options. In that click on ‘open file’ and select the arff file
 8) Click on edit button which shows employee table on weka.
 
-### OUTPUT:
+### Output:
 
 
 
@@ -74,7 +95,7 @@ rainy,75.0,80.0,false,yes
 13) Save the file.
 14) Click on the Edit button, it shows a new Weather Table on Weka.
 
-### OUTPUT:
+### Output:
 
 ### 2) Remove -> Pre-Processing Technique:
 
@@ -90,7 +111,7 @@ rainy,75.0,80.0,false,yes
 10) Click Remove button and then Save.
 11) Click on the Edit button, it shows a new Weather Table on Weka.
 
-### OUTPUT:
+### Output:
 
 ### Normalize -> Pre-Processing Technique:
 
@@ -106,6 +127,6 @@ rainy,75.0,80.0,false,yes
 10) Click on Apply button and then Save.
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
 
-### OUTPUT:
-### RESULT: 
+### Output:
+### Result: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
