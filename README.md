@@ -3,13 +3,13 @@
 ### Aim: 
 <table>
 <tr>
-<td width=77%>
+<td width=79%>
 
 To Create Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform preprocessing.
 </td>
 <td>
   
-**DATE :10-08-2024**
+**DATE :00-00-2024**
 </td>
 </tr>
 </table>  
@@ -20,9 +20,9 @@ To Create Employee, Weather dataset in WEKA Data Mining and Analysis Tool and pe
 <br>
 <table>
 <tr>
-<td valign=top>
+<td valign=top width=70%>
   
-Employee Data:
+**Employee Data:**
 ```
 @relation employee
 @attribute name {x,y,z,a,b}
@@ -42,7 +42,7 @@ b,105,high,2,male,240240
 </td> 
 <td>
 
-Weather Data:
+**Weather Data:**
 ```
 @relation weather
 @attribute outlook {sunny,rainy,overcast}          
@@ -94,6 +94,7 @@ Employee Dataset &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&em
 12) Press the Apply button, then a new attribute is added to the Weather Table.
 13) Save the file.
 14) Click on the Edit button, it shows a new Weather Table on Weka.
+<BR>
 
 ### Output:
 Adding new column in Employee Data:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Adding new column in Weather Data:
@@ -111,9 +112,14 @@ Adding new column in Employee Data:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&em
 9) Select the attributes windy, play to Remove.
 10) Click Remove button and then Save.
 11) Click on the Edit button, it shows a new Weather Table on Weka.
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
 
 ### Output:
-Removing salary and gender in Employee Data:&emsp;&emsp;Removing windy and play in Weather Data:<br>
+Removing salary and gender in Employee Data:&emsp;&emsp;&emsp;&emsp;Removing windy and play in Weather Data:<br>
 <img height=15% width=48% align=top src="https://github.com/user-attachments/assets/66de1d4f-38a9-47f7-aa2b-eafc43814349">&emsp;<img height=24% width=48% src="https://github.com/user-attachments/assets/63e47a6a-5bc1-47bb-b248-7e65966a2efb">
 
 ### Normalize -> Pre-Processing Technique:
@@ -129,10 +135,17 @@ Removing salary and gender in Employee Data:&emsp;&emsp;Removing windy and play 
 9) Select the attributes temparature, humidity to Normalize.
 10) Click on Apply button and then Save.
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
+<BR>
 
 ### Output:
-Normalizing id,experience,phone in Employee Data:Normalizing temparature,humidity in Weather Data:<br>
+Normalizing id,experience,phone in Employee Data:&emsp;&emsp;Normalizing temparature,humidity in Weather Data:<br>
 <img height=15% width=48% align=top src="https://github.com/user-attachments/assets/145fba49-822e-409f-9e57-26ff4649ecc1">&emsp;<img height=24% width=48% src="https://github.com/user-attachments/assets/89d1fb44-6928-40f1-a596-18c99df656fa">
 
 ### Result: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
+<BR>
+<BR>
+<BR>
+<BR>
+**Developed by: ROHIT JAIN D** <BR>
+**RegisterNumber: 212222230120**  
