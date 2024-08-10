@@ -74,8 +74,8 @@ rainy,75.0,80.0,false,yes
 8) Click on edit button which shows employee table on weka.
 
 ### Output:
-Employee Dataset &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Weather Dataset <br>
-<img height=15% width=48% align=top src="https://github.com/user-attachments/assets/0c03c925-2ba4-44fc-814b-a836cd89f1c2">&emsp;<img height=15% width=48% src="https://github.com/user-attachments/assets/758c8b65-1f00-484d-bb56-45f057225a16">
+Employee Dataset &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Weather Dataset <br>
+<img height=15% width=48% align=top src="https://github.com/user-attachments/assets/0c03c925-2ba4-44fc-814b-a836cd89f1c2">&emsp;<img height=24% width=48% src="https://github.com/user-attachments/assets/758c8b65-1f00-484d-bb56-45f057225a16">
 
 ### PREPROCESSING
 ### Procedure:
@@ -96,14 +96,10 @@ Employee Dataset &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&em
 14) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### Output:
-
-![Screenshot 2024-08-10 135012](https://github.com/user-attachments/assets/6b840d7f-2240-41f1-adf9-486f42731ade)
-
-![Screenshot 2024-08-10 131607](https://github.com/user-attachments/assets/46224369-aeb1-4a82-9536-831858a6941f)
-
+Adding new column in Employee Data:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Adding new column in Weather Data:
+<img height=15% width=48% align=top src="https://github.com/user-attachments/assets/6b840d7f-2240-41f1-adf9-486f42731ade">&emsp;<img height=24% width=48% src="https://github.com/user-attachments/assets/46224369-aeb1-4a82-9536-831858a6941f">
 
 ### 2) Remove -> Pre-Processing Technique:
-
 1) Start -> Programs -> Weka-3-4 -> Weka-3-4
 2) Click on explorer.
 3) Click on open file.
@@ -117,10 +113,8 @@ Employee Dataset &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&em
 11) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### Output:
-
-![Screenshot 2024-08-10 135130](https://github.com/user-attachments/assets/66de1d4f-38a9-47f7-aa2b-eafc43814349)
-
-![Screenshot 2024-08-10 132714](https://github.com/user-attachments/assets/63e47a6a-5bc1-47bb-b248-7e65966a2efb)
+Removing salary and gender in Employee Data:&emsp;&emsp;Removing windy and play in Weather Data:<br>
+<img height=15% width=48% align=top src="https://github.com/user-attachments/assets/66de1d4f-38a9-47f7-aa2b-eafc43814349">&emsp;<img height=24% width=48% src="https://github.com/user-attachments/assets/63e47a6a-5bc1-47bb-b248-7e65966a2efb">
 
 ### Normalize -> Pre-Processing Technique:
 
@@ -137,10 +131,8 @@ Employee Dataset &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&em
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
 
 ### Output:
-
-![Screenshot 2024-08-10 135227](https://github.com/user-attachments/assets/145fba49-822e-409f-9e57-26ff4649ecc1)
-
-![Screenshot 2024-08-10 134207](https://github.com/user-attachments/assets/89d1fb44-6928-40f1-a596-18c99df656fa)
+Normalizing id,experience,phone in Employee Data:Normalizing temparature,humidity in Weather Data:<br>
+<img height=15% width=48% align=top src="https://github.com/user-attachments/assets/145fba49-822e-409f-9e57-26ff4649ecc1">&emsp;<img height=24% width=48% src="https://github.com/user-attachments/assets/89d1fb44-6928-40f1-a596-18c99df656fa">
 
 ### Result: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
